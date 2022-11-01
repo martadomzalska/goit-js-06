@@ -5,6 +5,8 @@ const btn = document.querySelector(".change-color");
 const body = document.querySelector("body");
 const text = document.querySelector(".color");
 
+text.textContent = "#ffffff";
+
 const changeColor = () => {
   body.style.backgroundColor = getRandomHexColor();
   text.textContent = getRandomHexColor();
